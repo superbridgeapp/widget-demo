@@ -35,6 +35,12 @@ export default function IndexPage() {
           <h2 className="text-2xl font-bold">Dialog Widget</h2>
           <WidgetDialog />
         </div>
+
+        {/* Embedded Demo */}
+        <div className="flex flex-col gap-4">
+          <h2 className="text-2xl font-bold">Themed Widget</h2>
+          <Widget query={`theme={"primary":"green"}`} />
+        </div>
       </div>
 
       <div className="flex gap-4">
