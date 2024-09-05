@@ -11,6 +11,7 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog"
+import { Icons } from "@/components/icons"
 import { Widget } from "@/components/widget"
 
 export function WidgetDialog() {
@@ -23,7 +24,6 @@ export function WidgetDialog() {
       </DialogTrigger>
       <DialogContent className="sm:max-w-[425px]">
         <DialogHeader>
-          <DialogTitle>Widget Dialog</DialogTitle>
           <DialogDescription>
             This is an example of the widget in a dialog.
           </DialogDescription>
