@@ -1,6 +1,6 @@
 # Superbridge Widget Demos
 
-A Next.js 13 application showcasing the integration and usage of Superbridge as a widget.
+A collection of demos showcasing Superbridge as a widget.
 
 ## What is Superbridge?
 
@@ -19,11 +19,11 @@ A few of our solutions include,
 
 1. Get a bridge URL to embed
 
-- If you want to enable Superchain bridging, you can use the Superbridge `https://v3.superbridge.app?widget=true` link
+   - If you want to enable Superchain bridging, you can use the Superbridge `https://v3.superbridge.app?widget=true` link
 
-- If you're a [Rollies](https://superbridge.app/rollies) customer, you can get a bridge URL from the [Rollies dashboard](https://dashboard.superbridge.app)
+   - If you're a [Rollies](https://superbridge.app/rollies) customer, you can get a bridge URL from the [Rollies dashboard](https://dashboard.superbridge.app)
 
-- If you have any other valid Superbridge bridge URL, you can use that with the `?widget=true` query parameter
+   - If you have any other valid Superbridge bridge URL, you can use that with the `?widget=true` query parameter
 
 1. Checkout the [live site](https://widget-demo-gray.vercel.app/) and determine which kind of widget integration you want to try
 

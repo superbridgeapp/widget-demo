@@ -8,10 +8,8 @@ import {
   DialogContent,
   DialogDescription,
   DialogHeader,
-  DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog"
-import { Icons } from "@/components/icons"
 import { Widget } from "@/components/widget"
 
 export function WidgetDialog() {

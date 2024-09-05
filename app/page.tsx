@@ -1,6 +1,5 @@
 import Link from "next/link"
 
-import { Button, buttonVariants } from "@/components/ui/button"
 import { Icons } from "@/components/icons"
 import { Widget } from "@/components/widget"
 import { WidgetDialog } from "@/components/widget-dialog"
@@ -20,7 +19,7 @@ export default function IndexPage() {
         <p className="max-w-[700px] text-sm text-muted-foreground">
           See our{" "}
           <Link
-            href="https://github.com/superbridgeapp/widget-demo"
+            href="https://github.com/superbridgeapp/widget-demo?tab=readme-ov-file#superbridge-widget-demos"
             target="_blank"
             rel="noopener noreferrer"
             className="underline"
