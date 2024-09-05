@@ -37,10 +37,10 @@ A few of our solutions include,
 
 ## Configuration
 
-After you've added the widget to your codebase, you can customise the widget's appearance and behaviour using a few available props. Everything is passed in as query parameters Refer to the [Superbridge documentation](https://docs.superbridge.app) for detailed configuration options.
+After you've added the widget to your codebase, you can customise the widget's appearance and behaviour using a few available props. Everything is passed in as query parameters to the provided URL.
 
 - `fromChainId` - The chain ID of the chain you want to bridge from
 - `toChainId` - The chain ID of the chain you want to bridge to
 - `tokenAddress` - The address of the token you want to bridge, this should be the address of the token on the `fromChainId` network
-- `recipient` - Prefill the recipient of the bridge, will default to the users connected wallet address if not provided
+- `recipient` - Prefill the recipient of the bridge operation, will default to the users connected wallet address if not provided
 - `theme` - Customise the theme of the widget via a stringified JSON object, refer to the [object](https://github.com/superbridgeapp/superbridge-app/blob/main/apps/bridge/codegen/model/themeDto.ts) to see the available options
