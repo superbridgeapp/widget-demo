@@ -1,7 +1,7 @@
 export type SiteConfig = typeof siteConfig
 
 export const siteConfig = {
-  name: "Superbridge Widget Demos",
+  name: "Superbridge",
   description: "Learn how to use Superbridge's widget in your application.",
   mainNav: [
     // {
