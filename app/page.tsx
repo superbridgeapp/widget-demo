@@ -30,38 +30,22 @@ export default function IndexPage() {
         </p>
       </div>
 
-      <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-        {/* Embedded Demo */}
-        <div className="flex flex-col gap-4">
+      {/* Popout and Dialog Section */}
+      <div className="grid gap-6 md:grid-cols-3">
+        <div className="flex flex-col gap-2">
           <h2 className="text-2xl font-bold flex justify-between items-center">
-            <span>Embedded</span>
+            <span>Popout</span>
             <Link
-              href="https://github.com/superbridgeapp/widget-demo/blob/main/components/widget.tsx"
+              href="https://github.com/superbridgeapp/widget-demo/blob/main/components/widget-popout.tsx"
               className="ml-2"
               target="_blank"
             >
               <Icons.gitHub className="h-5 w-5" />
             </Link>
           </h2>
-          <Widget />
-        </div>
-
-        {/* Popout Demo */}
-        <div className="flex flex-col gap-4">
-          <h2 className="text-2xl font-bold flex justify-between items-center">
-            <span>Popout</span>
-            <Link
-              href="https://github.com/superbridgeapp/widget-demo/blob/main/components/widget-popout.tsx"
-              className="ml-2"
-            >
-              <Icons.gitHub className="h-5 w-5" />
-            </Link>
-          </h2>
           <WidgetPopout />
         </div>
-
-        {/* Dialog Demo */}
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-2">
           <h2 className="text-2xl font-bold flex justify-between items-center">
             <span>Dialog</span>
             <Link
@@ -74,11 +58,30 @@ export default function IndexPage() {
           </h2>
           <WidgetDialog />
         </div>
+      </div>
+
+      {/* Embedded Examples Section */}
+      <h2 className="text-2xl font-bold mt-8">Embedded Examples</h2>
+      <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        {/* Embedded Demo */}
+        <div className="flex flex-col gap-4">
+          <h3 className="text-xl font-bold flex justify-between items-center">
+            <span>Default</span>
+            <Link
+              href="https://github.com/superbridgeapp/widget-demo/blob/main/components/widget.tsx"
+              className="ml-2"
+              target="_blank"
+            >
+              <Icons.gitHub className="h-5 w-5" />
+            </Link>
+          </h3>
+          <Widget />
+        </div>
 
         {/* Custom Theme Demo */}
         <div className="flex flex-col gap-4">
-          <h2 className="text-2xl font-bold flex justify-between items-center">
-            <span>Custom Theme</span>
+          <h3 className="text-xl font-bold flex justify-between items-center">
+            <span>Theme override</span>
             <Link
               href="https://github.com/superbridgeapp/widget-demo/blob/main/components/widget-themed.tsx"
               className="ml-2"
@@ -86,8 +89,51 @@ export default function IndexPage() {
             >
               <Icons.gitHub className="h-5 w-5" />
             </Link>
-          </h2>
+          </h3>
           <WidgetThemed />
+        </div>
+
+        {/* Custom Token Demo */}
+        <div className="flex flex-col gap-4">
+          <h3 className="text-xl font-bold flex justify-between items-center">
+            <span>Injected Token</span>
+            <Link
+              href="https://github.com/superbridgeapp/widget-demo/blob/main/components/widget-themed.tsx"
+              className="ml-2"
+              target="_blank"
+            >
+              <Icons.gitHub className="h-5 w-5" />
+            </Link>
+          </h3>
+          <Widget src="https://v3.superbridge.app?widget=true&fromChainId=8453&toChainId=10&tokenAddress=0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913" />
+        </div>
+
+        <div className="flex flex-col gap-4">
+          <h3 className="text-xl font-bold flex justify-between items-center">
+            <span>Token bridge (USDC)</span>
+            <Link
+              href="https://github.com/superbridgeapp/widget-demo/blob/main/components/widget-themed.tsx"
+              className="ml-2"
+              target="_blank"
+            >
+              <Icons.gitHub className="h-5 w-5" />
+            </Link>
+          </h3>
+          <Widget src="https://usdc.superbridge.app" />
+        </div>
+
+        <div className="flex flex-col gap-4">
+          <h3 className="text-xl font-bold flex justify-between items-center">
+            <span>Rollup bridge (Cyber Testnet)</span>
+            <Link
+              href="https://github.com/superbridgeapp/widget-demo/blob/main/components/widget-themed.tsx"
+              className="ml-2"
+              target="_blank"
+            >
+              <Icons.gitHub className="h-5 w-5" />
+            </Link>
+          </h3>
+          <Widget src="https://cyber-testnet.v3.testnets.rollbridge.app/?widget=true" />
         </div>
       </div>
     </section>

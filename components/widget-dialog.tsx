@@ -3,13 +3,7 @@
 import { useState } from "react"
 
 import { Button } from "@/components/ui/button"
-import {
-  Dialog,
-  DialogContent,
-  DialogDescription,
-  DialogHeader,
-  DialogTrigger,
-} from "@/components/ui/dialog"
+import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog"
 import { Widget } from "@/components/widget"
 
 export function WidgetDialog() {
@@ -21,11 +15,6 @@ export function WidgetDialog() {
         <Button>Open Widget Dialog</Button>
       </DialogTrigger>
       <DialogContent className="sm:max-w-[425px]">
-        <DialogHeader>
-          <DialogDescription>
-            This is an example of the widget in a dialog.
-          </DialogDescription>
-        </DialogHeader>
         <Widget />
       </DialogContent>
     </Dialog>

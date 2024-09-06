@@ -1,7 +1,11 @@
-export const Widget = () => {
+export const Widget = ({
+  src = "https://v3.superbridge.app?widget=true",
+}: {
+  src?: string
+}) => {
   return (
     <iframe
-      src={`https://v3.superbridge.app/?widget=true`}
+      src={src}
       className="w-full max-w-[420px] rounded-[24px] md:rounded-[32px] shadow-lg h-[606px]"
     />
   )
