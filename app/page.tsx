@@ -98,7 +98,7 @@ export default function IndexPage() {
           <h3 className="text-xl font-bold flex justify-between items-center">
             <span>Injected Token</span>
             <Link
-              href="https://github.com/superbridgeapp/widget-demo/blob/main/components/widget-themed.tsx"
+              href="https://github.com/superbridgeapp/widget-demo/blob/main/app/page.tsx#L108"
               className="ml-2"
               target="_blank"
             >
@@ -112,7 +112,7 @@ export default function IndexPage() {
           <h3 className="text-xl font-bold flex justify-between items-center">
             <span>Token bridge (USDC)</span>
             <Link
-              href="https://github.com/superbridgeapp/widget-demo/blob/main/components/widget-themed.tsx"
+              href="https://github.com/superbridgeapp/widget-demo/blob/main/app/page.tsx#L122"
               className="ml-2"
               target="_blank"
             >
@@ -126,7 +126,7 @@ export default function IndexPage() {
           <h3 className="text-xl font-bold flex justify-between items-center">
             <span>Rollup bridge (Cyber Testnet)</span>
             <Link
-              href="https://github.com/superbridgeapp/widget-demo/blob/main/components/widget-themed.tsx"
+              href="https://github.com/superbridgeapp/widget-demo/blob/main/app/page.tsx#L136"
               className="ml-2"
               target="_blank"
             >
