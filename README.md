@@ -32,6 +32,7 @@ A few of our solutions include,
 ```
     <iframe
       src={`http://v3.superbridge.app/?widget=true`} // use your bridge URL here
+      allowtransparency="true" // (Optional) Use to enable transparent background colors set in your theme
     />
 ```
 
