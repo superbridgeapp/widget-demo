@@ -82,7 +82,7 @@ export default function IndexPage() {
             title="Token bridge (USDC)"
             githubLink="https://github.com/superbridgeapp/widget-demo/blob/main/app/page.tsx#L122"
           />
-          <Widget src="https://usdc.superbridge.app" />
+          <Widget src="https://a708991b-616a-406d-9318-c393803f684c.bridges.rollbridge.app" />
         </div>
 
         <div className="flex flex-col gap-4">
