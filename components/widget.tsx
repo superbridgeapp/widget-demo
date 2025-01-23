@@ -1,5 +1,5 @@
 export const Widget = ({
-  src = "https://v3.superbridge.app?widget=true",
+  src = "https://superbridge.app?widget=true",
 }: {
   src?: string
 }) => {
